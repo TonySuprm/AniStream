@@ -1,0 +1,2 @@
+# AniStream
+Stremio anime addon
