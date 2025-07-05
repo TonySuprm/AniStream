@@ -1,0 +1,25 @@
+{
+  "name": "nyaa-debrid-stremio-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon to scrape Nyaa.si and resolve links with AllDebrid.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "nyaa",
+    "alldebrid",
+    "anime"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "parse-torrent-title": "^1.1.1",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
